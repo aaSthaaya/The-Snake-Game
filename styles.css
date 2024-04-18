@@ -2,4 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #3e4611;
+  position: relative;
+  background-color: #f3f3cb;
+}
+
+#snake {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(#008000, #ffff00);
+  position: absolute;
+}
+
+button {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+  border: none;
+  padding: 8px;
+  margin-top: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
